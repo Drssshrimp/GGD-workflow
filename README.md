@@ -238,7 +238,6 @@ STATE.md（现在做到哪了）
 - ggd-status         # 查看状态
 - gsd-approve-plan   # 批准 plan
 - ggd-approve-reqs   # 批准需求
-- ggd-approve-code  #批准代码
 - ggd-done           # 完成项目
 - ggd-reset          # 重置状态
 
