@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile \".claude/hooks/enforce_ggd.py\")",
+      "Bash(python -m flake8 \".claude/hooks/enforce_ggd.py\" --max-line-length=120)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/enforce_ggd.py",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
