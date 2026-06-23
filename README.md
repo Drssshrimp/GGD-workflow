@@ -2,7 +2,7 @@
 
 **GGD == Get Games Done**——一套方便个人或者小团队进行游戏开发的 Claude Code 工作流。
 
-GGD 参考了传统软件开发中的 [GSD（Get Shit Done）](https://github.com/anthonymittz/gsd-workflow) 工作流，将其门禁驱动（Gate-Guided Development）的核心理念适配到游戏开发场景：用状态机 + Hook 硬门禁确保项目不跳步，用专业化 Agent 链（PM → Architect → Dispatcher）把「讨论 → 设计 → 编码」拆成可接续的标准化流程。
+GGD 参考了传统软件开发中的 [GSD（Get Shit Done）](https://github.com/open-gsd/gsd-pi) 工作流，用状态机 + Hook 硬门禁确保项目不跳步，用专业化 Agent 链（PM → Architect → Dispatcher）把「讨论 → 设计 → 编码」拆成可接续的标准化流程。
 
 ## 为什么用 GGD
 
@@ -229,6 +229,8 @@ STATE.md（现在做到哪了）
 
 
 ## 最佳实践
+
+建议在一个IDE里面打开项目文件，并使用里面的终端唤出claude，方便随时审阅与修改
 
 ### 新项目启动
 
